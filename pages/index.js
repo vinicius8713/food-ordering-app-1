@@ -32,8 +32,8 @@ export default function Home({ pizzaList, admin }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title style={{fontWeight: 700}}>Dineout - The best Pizza restaurant </title>
-        <meta name="description" content="Find best pizza restaurants in India offering discounts on food & drinks, check out menu, reviews and also book a table through dineout for free." />
+        <title style={{fontWeight: 700}}>UniFood </title>
+        <meta name="description" content="UniFood." />
       </Head>
       <Featured />
       {admin && <AddButton setClose={setClose} />}

@@ -32,21 +32,21 @@ const Login = () => {
     return (
         <div className={styles.container}>
             <div className={styles.wrapper}>
-                <h1>Admin Dashboard</h1>
+                <h1>Admin</h1>
                 <TextField
-                    label="username"
+                    label="Login"
                     color="bg_color"
                     onChange={(e) => setUsername(e.target.value)}
                     style={{ marginBottom: "2rem" }}
                 />
                 <TextField
-                    label="password"
+                    label="Senha"
                     color="bg_color"
                     type="password"
                     onChange={(e) => setPassword(e.target.value)}
                     style={{ marginBottom: "2rem" }}
                 />
-                <Button size="large" variant="contained" color="bg_color" onClick={handleClick} >Login </Button>
+                <Button size="large" variant="contained" color="bg_color" onClick={handleClick} >Entrar </Button>
                 {error && <span className={styles.error}>Wrong Credentials!</span>}
             </div>
         </div>
